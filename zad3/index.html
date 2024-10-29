@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="button" value="kliknij" id="przycisk1" onclick="zmianaKoloru()">
+    <input type="button" value="kliknij" id="przycisk2" onclick="zmianaKoloru2()">
+    <input type="button" value="kliknij" id="przycisk3" onclick="zmianaKoloru3()">
+    
+
+
+    <script>
+        function zmianaKoloru(){
+            document.getElementById("przycisk1").style.color = "red";
+        }
+
+        function zmianaKoloru2(){
+            let red = "#3243bb"
+            document.getElementById("przycisk2").style.color = red;
+        }
+
+        function zmianaKoloru3(kolor){
+            document.getElementById("przycisk3").style.color = kolor;
+        }
+    </script>
+</body>
+</html>

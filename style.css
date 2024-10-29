@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con{
+    width: 1600px;
+    height: 900px;
+    border: black solid 2px;
+}
+
+.left-box{
+    width: 396px;
+    height: 900px;
+    border: black solid 2px;
+    float: left;
+}
+
+
+
+.middle-box{
+    width: 796px;
+    height: 900px;
+    border: black solid 2px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-box{
+    width: 600px;
+    
+}
+
+.right-box{
+    width: 396px;
+    height: 900px;
+    border: black solid 2px;
+    float: left;
+}
+
+
+
